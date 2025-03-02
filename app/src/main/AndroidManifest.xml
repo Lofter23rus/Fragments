@@ -21,6 +21,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".ActivityA"
+            android:exported="false"
+            android:launchMode="standard"
+            />
+
+        <activity
+            android:name=".ActivityB"
+            android:exported="false"
+            android:launchMode="standard"
+            />
+
     </application>
 
 </manifest>
